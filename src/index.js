@@ -1,5 +1,5 @@
 import 'phaser'
-import {SimpleScene} from './scenes/simple-scene';
+import {MainScene} from './scenes/main-scene';
 
 
 const gameConfig = {
