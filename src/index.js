@@ -1,13 +1,11 @@
-import 'phaser'
-import {MainScene} from './scenes/main-scene';
+import 'phaser';
 
+import { Wheel } from './scenes/wheel';
 
 const gameConfig = {
-    
-    width: 680,
-    height: 400,
-    scene: SimpleScene
-    
+  width: 680,
+  height: 400,
+  scene: SimpleScene
 };
 
-new Phaser.Game(gameConfig)
+new Phaser.Game(gameConfig);
