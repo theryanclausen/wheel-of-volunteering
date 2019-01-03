@@ -3,9 +3,9 @@ import 'phaser';
 import { Wheel } from './scenes/wheel';
 
 const gameConfig = {
-  width: 680,
-  height: 400,
-  scene: SimpleScene
+  width: 600,
+  height: 600,
+  scene: Wheel
 };
 
 new Phaser.Game(gameConfig);
